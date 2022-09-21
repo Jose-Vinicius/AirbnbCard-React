@@ -16,7 +16,7 @@ export default function Card(props){
     return(
         <div className='card'>
             {badgeText && <div className={classBadge}>{badgeText}</div>}
-            <img src={`../../public/assets/person/${props.coverImg}`} />
+            <img src={`/assets/person/${props.coverImg}`} />
             <div className='card__content'>
                 <img src={Star}/>
                 <span>

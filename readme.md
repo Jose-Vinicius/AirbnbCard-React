@@ -7,7 +7,7 @@ Criar um componente de cartão reutilizável, onde seria gerado a partir de um a
 ![Print do resultado final](./public/result/airbnb-result.jpeg)
 [Resultado final](https://airbnb-card-react.vercel.app/)
 
-## 🖥️ Tecnologias utilizada
+## 🖥️ Tecnologias utilizadas
 
 - JavaScript;
 - ReactJS;

@@ -1,0 +1,9 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+@mixin for-mobile-only {
+    @media (max-width: 720px) { @content; }
+}
+
+@import 'Reset', 'Fonts', 'Header', 'Card';

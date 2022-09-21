@@ -1,0 +1,69 @@
+.card{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 35px 15px;
+    display: flex;
+    position: relative;
+
+    & > img{
+        border-radius: 10px;
+    }
+
+    &__container{
+        display: flex;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    &__badge{
+        &--online{
+            background-color: green;
+            color: white;
+            position: absolute;
+            top: 10px;
+            left: 40px;
+            padding: 3px 5px;
+            font-size: 15px;
+            border-radius: 2px;
+            font-weight: bold;
+        }
+
+        &--sold{
+            background-color: red;
+            color: white;
+            position: absolute;
+            top: 10px;
+            left: 40px;
+            padding: 3px 5px;
+            font-size: 15px;
+            border-radius: 2px;
+            font-weight: bold;
+        }
+    }
+
+    &__content{
+        font-size: 16px;
+        padding: 5px 0;
+
+        & > img{
+            width: 16px;
+        }
+
+        &--gray{
+            color: gray;
+        }
+    }
+
+    &__value{
+        &--bold{
+            font-weight: bold;
+        }
+    }
+}
+
+@include for-mobile-only{
+    .card__description{
+        text-align: center;
+    }
+}
